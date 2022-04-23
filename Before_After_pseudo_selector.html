@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+    <title>Before and after pseudo slector</title>
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            background-color: black;
+            color: white;
+  
+        }
+        header::before{
+            content: "";
+            background : url('https://source.unsplash.com/user/erondu/1600x900')  no-repeat center center/cover;
+            position:absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+
+        }
+
+      .navigation {
+            font-family: 'Shippori Antique', sans-serif;
+            font-size: 15px;
+            display: flex;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 20px 23px;
+        }
+
+        section {
+            height: 344px;
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: centre;
+            justify-content: centre;
+        }
+
+       /* section ::before {
+            content: "this is content";
+        }*/
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav></header>
+        <section>
+            <h1>Welcome To coding World</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis corporis, velit minima obcaecati quidem
+                dolore incidunt eos dolorum cumque? Explicabo provident eligendi a hic deleniti totam odit molestias
+                cumque quis? Corrupti vero nesciunt laudantium?</p>
+        </section>
+        <hr>
+</body>
+
+</html>
