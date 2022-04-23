@@ -1,0 +1,109 @@
+ div.flex-row{
+    display: flex;
+    flex-direction: flex-row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+div.flex-item{
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',https://srv.buysellads.com/ads/click//GTND42JICV7DKK7MCTALYKQNCK7DC27MCABDTZ3JCY7I623JCWYDE2JKCKBIVKQJFTSDT23YCY7D5K7JCAADK53KC6SDCKJLCWYDEK3EHJNCLSIZ Arial, sans-serif;
+    height: 100%;
+}
+div.flex-item img{
+    width: 100%;
+    height: 200px;
+    border-radius: 0px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px 0px;
+}
+div.flex-item h1{
+    font-size: 1.8rem;
+    padding-left: 5px;
+    text-align: center;
+    text-shadow: 1px 0.5px 1.7px #1f291f;
+    
+}
+div.flex-item p{
+    font-size: 1rem;
+    padding-left: 6px;
+}
+div.flex-item button{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 12px 55px 12px 55px;
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: 1.2rem;
+
+}
+div.flex-item button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+div#flex-item-1 button{
+    top: 12px;
+    bottom: 2px;
+    border-radius: 2px;
+
+}
+*{
+    background-color: bisque;
+    box-sizing: border-box;
+    margin-bottom: 1.4rem;
+    
+}
+ /*--------------------------------------------------------*/
+/* Copyed code */
+.flex-item{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px bisque inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px bisque inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px bisque inset;
+}
+.flex-item:before, .flex-item:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 30px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 30px rgba(0,0,0,0.8);
+    box-shadow:0 0 30px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.flex-item:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+/* -------------------------------------------------------*/
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-overflow: hidden;
+  text-shadow: 3px 3px 13px rgb(231, 137, 43);
+}
+
+legend{
+    text-shadow: 1px 0.5px 1.9px #1f291f;
+    font-size: 20px;    
+}
+
+.field_set{
+    border-color: rgb(15, 9, 9);
+    border-radius: 3px;
+    box-shadow: 0.4px 0.4px 1px rgba(31, 21, 21, 0.795);
+}
